@@ -1,0 +1,33 @@
+name: spotify
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  persistent_bottom_nav_bar: ^5.0.2
+  audioplayers: ^5.1.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - assets/DawnFM/
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: fonts/OpenSans_SemiCondensed-Medium.ttf
+
